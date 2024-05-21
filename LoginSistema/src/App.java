@@ -20,12 +20,12 @@ public class App {
             System.out.println ("Digite sua senha: ");
             String senha = teclado.nextLine();
 
-            if (senha.equals(LoginSistema.correctPassword)) {
+            if (senha.equals(LoginSistema.correctPassword) && email.equals(LoginSistema.correctEmail)) {
                 System.out.println ("Login efetuado com sucesso!");
                 System.out.println ("Bem-vindo " + nome + "!");
                 authenticated = true;
             } else {
-                System.out.println ("Senha incorreta. Tente novamente.");
+                System.out.println ("Email ou Senha incorreta. Tente novamente.");
                 logFailedAttempt (email, nome, senha);
             }
         }

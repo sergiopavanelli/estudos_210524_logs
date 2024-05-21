@@ -3,3 +3,23 @@ Email: sergio@gmail
 Nome: sergio
 Senha incorreta: 123
 ---------------
+Tentativa de login falhada:
+Email: sergiopavanelli@gmail.com
+Nome: cabuloso777
+Senha incorreta: cabuloso777
+---------------
+Tentativa de login falhada:
+Email: sergiopavanelli@gmail.com
+Nome: cabuloso777
+Senha incorreta: cabuloso777
+---------------
+Tentativa de login falhada:
+Email: sergiopavanelli@gmail.com
+Nome: sergio
+Senha incorreta: 1234
+---------------
+Tentativa de login falhada:
+Email: sergiopavanelli@gmail.com
+Nome: sergio
+Senha incorreta: 1234
+---------------
