@@ -8,7 +8,6 @@ public class App {
 
         Scanner teclado = new Scanner(System.in);
 
-     
         System.out.println ("Digite seu nome: ");
         String nome = teclado.nextLine();
 
@@ -18,9 +17,19 @@ public class App {
             
             System.out.println ("Digite seu e-mail: ");
             String email = teclado.nextLine();
+            if ("sair".equalsIgnoreCase(email)) {
+                System.out.println ("Programa encerrado.");
+                break;
+
+            }
                         
             System.out.println ("Digite sua senha: ");
             String senha = teclado.nextLine();
+            if ("sair".equalsIgnoreCase(senha)) {
+                System.out.println ("Programa encerrado.");
+                break;
+            }
+
 
             if (senha.equals(LoginSistema.correctPassword) && email.equals(LoginSistema.correctEmail)) {
                 System.out.println ("Login efetuado com sucesso!");
@@ -28,12 +37,6 @@ public class App {
                 authenticated = true;
             } else {
                 System.out.println ("Email ou Senha incorreta. Tente novamente ou escolha 'sair' para encerrar o programa.");
-
-                if (senha.equals("sair")) {
-                    System.out.println ("Programa encerrado.");
-                    break;
-                }
-
                 logFailedAttempt (email, nome, senha);
             }
         }
