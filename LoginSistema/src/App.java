@@ -8,15 +8,17 @@ public class App {
 
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println ("Digite seu e-mail: ");
-        String email = teclado.nextLine();
-
+     
         System.out.println ("Digite seu nome: ");
         String nome = teclado.nextLine();
 
         boolean authenticated = false;
 
         while (!authenticated) {
+            
+            System.out.println ("Digite seu e-mail: ");
+            String email = teclado.nextLine();
+                        
             System.out.println ("Digite sua senha: ");
             String senha = teclado.nextLine();
 
