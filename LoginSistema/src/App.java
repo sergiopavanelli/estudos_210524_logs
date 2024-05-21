@@ -25,7 +25,13 @@ public class App {
                 System.out.println ("Bem-vindo " + nome + "!");
                 authenticated = true;
             } else {
-                System.out.println ("Email ou Senha incorreta. Tente novamente.");
+                System.out.println ("Email ou Senha incorreta. Tente novamente ou escolha 'sair' para encerrar o programa.");
+
+                if (senha.equals("sair")) {
+                    System.out.println ("Programa encerrado.");
+                    break;
+                }
+
                 logFailedAttempt (email, nome, senha);
             }
         }
