@@ -1,0 +1,5 @@
+Tentativa de login falhada:
+Email: sergio@gmail
+Nome: sergio
+Senha incorreta: 123
+---------------
