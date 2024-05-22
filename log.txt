@@ -3,3 +3,8 @@ Email: ser
 Nome: ser
 Senha incorreta: ser
 ---------------
+Tentativa de login falhada:
+Email: teste
+Nome: sergio
+Senha incorreta: erro
+---------------
