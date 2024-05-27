@@ -30,7 +30,6 @@ public class App {
                 break;
             }
 
-
             if (senha.equals(LoginSistema.correctPassword) && email.equals(LoginSistema.correctEmail)) {
                 System.out.println ("Login efetuado com sucesso!");
                 System.out.println ("Bem-vindo " + nome + "!");
@@ -57,6 +56,3 @@ public class App {
         }
     }
 }
-
-
-
