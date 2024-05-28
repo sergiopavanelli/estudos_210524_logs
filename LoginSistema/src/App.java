@@ -34,6 +34,7 @@ public class App {
                 System.out.println ("Login efetuado com sucesso!");
                 System.out.println ("Bem-vindo " + nome + "!");
                 authenticated = true;
+                break;
             } else {
                 System.out.println ("Email ou Senha incorreta. Tente novamente ou escolha 'sair' para encerrar o programa.");
                 logFailedAttempt (email, nome, senha);

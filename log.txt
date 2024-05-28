@@ -13,3 +13,13 @@ Email: ser
 Nome: ser
 Senha incorreta: ser
 ---------------
+Tentativa de login falhada:
+Email: ser
+Nome: ser
+Senha incorreta: ser
+---------------
+Tentativa de login falhada:
+Email: sergio
+Nome: sergio
+Senha incorreta: 12
+---------------
